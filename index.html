@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <p>Casio</p>
+            <input type="text" id="screen" readonly>
+            <br>
+            <input class="button" type="button" value="7" onclick="btnclick('7')">
+            <input class="button" type="button" value="8" onclick="btnclick('8')">
+            <input class="button" type="button" value="9" onclick="btnclick('9')">
+            <input class="op" type="button" value="/" onclick="btnclick('/')">
+            <br>
+            <input class="button" type="button" value="4" onclick="btnclick('4')">
+            <input class="button" type="button" value="5" onclick="btnclick('5')">
+            <input class="button" type="button" value="6" onclick="btnclick('6')">
+            <input class="op" type="button" value="*" onclick="btnclick('*')">
+            <br>
+            <input class="button" type="button" value="1" onclick="btnclick('1')">
+            <input class="button" type="button" value="2" onclick="btnclick('2')">
+            <input class="button" type="button" value="3" onclick="btnclick('3')">
+            <input class="op" type="button" value="+" onclick="btnclick('+')">
+            <br>
+            <input class="clear" type="button" value="C" onclick="clearscreen()">
+            <input class="button" type="button" value="0" onclick="btnclick('0')">
+            <input class="button" type="button" value="=" onclick="findresult()">
+            <input class="button" type="button" value="%" onclick="percentageClick('%')">
+            <input class="op" type="button" value="-" onclick="btnclick('-')">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
